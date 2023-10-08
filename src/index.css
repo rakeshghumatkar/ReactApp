@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #b7ffd5;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
