@@ -1,10 +1,6 @@
 import "./ExpenseDate.css";
 const ExpenseDate = ({ date }) => {
-  if (!(date instanceof Date)) {
-    // Handle the case where 'date' is not a valid Date object
-    return null; // You can return null or some other suitable placeholder
-  }
-
+  ///dummy branch comments
   const day = date.toLocaleString("en-US", { day: "2-digit" });
   const month = date.toLocaleString("en-US", { month: "long" });
   const year = date.getFullYear();
