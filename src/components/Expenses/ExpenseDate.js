@@ -1,6 +1,7 @@
 import "./ExpenseDate.css";
 const ExpenseDate = ({ date }) => {
   ///dummy branch comments
+  //added comment from dummy2 branch
   const day = date.toLocaleString("en-US", { day: "2-digit" });
   const month = date.toLocaleString("en-US", { month: "long" });
   const year = date.getFullYear();
